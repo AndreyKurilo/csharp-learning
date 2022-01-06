@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox_C_sharp_console", "SandBox_C_sharp_console.csproj", "{72D0942B-E597-4D55-BC67-14FA585E4F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72D0942B-E597-4D55-BC67-14FA585E4F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72D0942B-E597-4D55-BC67-14FA585E4F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72D0942B-E597-4D55-BC67-14FA585E4F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72D0942B-E597-4D55-BC67-14FA585E4F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EDFB5FF-7392-4644-A8B4-C66A95A6520D}
+	EndGlobalSection
+EndGlobal
