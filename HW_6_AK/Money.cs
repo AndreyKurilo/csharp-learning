@@ -13,7 +13,7 @@ namespace HW_6_AK
         double tripCost;
         public void Run()
         {
-            Console.WriteLine("Enter distance to raid");
+            Console.WriteLine("Enter distance to raid, km");
             distance = Convert.ToInt16(Console.ReadLine());
             Сonsumption trip = new Сonsumption(distance);
 

@@ -110,8 +110,8 @@ namespace ChessKnight
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("    ___________________");
-            Console.WriteLine("       A B C D E F G H");
+            Console.WriteLine("    __________________________");
+            Console.WriteLine("       A  B  C  D  E  F  G  H");
         }
 
         public void changeCellsAfterMove(int xCoordinate, int yCoordinate)

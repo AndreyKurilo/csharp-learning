@@ -18,24 +18,24 @@ namespace HW_AK_6._1
             Console.Write("Enter your car's consumption (liters)");
             litersPerKm = Convert.ToSingle(Console.ReadLine());
             litersSpent = distanceKm * litersPerKm / 100;
-            Console.WriteLine($"Liters spent: {litersSpent}");
+            Console.WriteLine("Liters spent: {0:#.##}", litersSpent);
         }
 
         public static void Gallons(double litersSpent)
         {
             gallonsSpent = litersSpent * litersToGallons;
-            Console.WriteLine($"Gallons spent: {gallonsSpent}");
+            Console.WriteLine("Gallons spent: {0:#.###}", gallonsSpent);
         }
     }
 
     public partial class CostOfTrip
     {
         int distance;
-        static double gasPricePerLiter = 1.85;
+        static double gasPricePerLiter = 2.15;
         double tripCost;
         public void Run()
         {
-            Console.WriteLine("Enter distance to raid");
+            Console.WriteLine("Enter distance to raid, km");
             distance = Convert.ToInt16(Console.ReadLine());
             
             Сonsumption(distance);
@@ -43,7 +43,7 @@ namespace HW_AK_6._1
 
 
             tripCost = litersSpent * gasPricePerLiter;
-            Console.WriteLine($"Cost of trip: {tripCost} rubles");
+            Console.WriteLine("Cost of trip: {0:#.##} rubles", tripCost);
 
         }
     }

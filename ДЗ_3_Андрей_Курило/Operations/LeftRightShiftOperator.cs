@@ -48,7 +48,7 @@ namespace Homework.Operations
             for (byte j = 0; j < varArray.Length; j++)
             {
                 ConsoleHelper.WriteSubHead("Before: ");
-                Console.WriteLine($"binary: {Convert.ToString(varArray[j], toBase: 2).PadLeft(4, '0')}" +
+                Console.WriteLine($"binary: {Convert.ToString(varArray[j], toBase: 8).PadLeft(4, '0')}" +
                     $" decimal: {varArray[j]}");
                 int b1 = varArray[j] >> 4;
                 Console.WriteLine($"Shift {varArray[j]} >> 4");
