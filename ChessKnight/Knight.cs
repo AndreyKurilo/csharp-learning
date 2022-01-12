@@ -246,7 +246,7 @@ namespace ChessKnight
                 }
             }
             if (nextX != xCoordinate && nextY != yCoordinate)
-                Console.WriteLine("Next move to " + chessBoard.getX(nextX) + chessBoard.getY(nextY));
+                Console.WriteLine("Next move to " + chessBoard.getY(nextY) + chessBoard.getX(nextX));
         }
 
     }

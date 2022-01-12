@@ -22,7 +22,7 @@ namespace ChessKnight
             return chessBoard;
         }
 
-        public char getX(int xValue)
+        public char getY(int xValue)
         {
             switch (xValue)
             {
@@ -59,7 +59,7 @@ namespace ChessKnight
             this.x = x;
         }
 
-        public char getY(int yValue)
+        public char getX(int yValue)
         {
             switch (yValue)
             {
