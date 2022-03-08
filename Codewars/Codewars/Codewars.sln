@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRotation", "StringRotation\StringRotation.csproj", "{014FA5CC-9A00-4F79-9742-766E1FB937C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock_in_Mirror", "Clock_in_Mirror\Clock_in_Mirror.csproj", "{2FB3576F-853E-4D54-BA50-E499B21F0A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{014FA5CC-9A00-4F79-9742-766E1FB937C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014FA5CC-9A00-4F79-9742-766E1FB937C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014FA5CC-9A00-4F79-9742-766E1FB937C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014FA5CC-9A00-4F79-9742-766E1FB937C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB3576F-853E-4D54-BA50-E499B21F0A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB3576F-853E-4D54-BA50-E499B21F0A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB3576F-853E-4D54-BA50-E499B21F0A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB3576F-853E-4D54-BA50-E499B21F0A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
