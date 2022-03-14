@@ -44,14 +44,17 @@ namespace SeleniumTests
         [Test]
         public void TestBodyCalculator()
         {
+            //string? result;
             _wd.Navigate().GoToUrl("https://calc.by/weight-and-calories/body-mass-index-calculator.html");
             _wd.FindElement(By.Id("bmiVar1")).Click();
             _wd.FindElement(By.Id("bmiVar1")).Clear();
-            _wd.FindElement(By.Id("bmiVar1")).SendKeys("185");
+            _wd.FindElement(By.Id("bmiVar1")).SendKeys("192");
             _wd.FindElement(By.Id("bmiVar2")).Click();
             _wd.FindElement(By.Id("bmiVar2")).Clear();
-            _wd.FindElement(By.Id("bmiVar2")).SendKeys("60");
+            _wd.FindElement(By.Id("bmiVar2")).SendKeys("103");
             _wd.FindElement(By.XPath("//div[@id='t3-content']/div[3]/article/section/div[2]/div[2]/div/span")).Click();
+            var result = _wd.FindElement(By.Id("AnswerBMI1")).Text;
+            Assert.AreEqual("Избыточной массе тела (предожирение)", result);
             _wd.Close();
         }
     }
